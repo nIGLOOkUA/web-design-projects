@@ -5,12 +5,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nowadays</title>
         <style>
-            
+            h1 {
+                text-align: center;
+                font-size: 22px;
+            }
+            #link-main {
+                font-style: italic;
+            }
+            h2 {
+                text-align: center;
+            }
+            ul > li {
+                background-color: white;
+                color: black;
+            }
+            ul ul > li:nth-child(odd) {
+                background-color: gray;
+                color: white;
+            }
+            ul ul > li:nth-child(even) {
+                background-color: white;
+                color: black;
+            }
+            ol > li:nth-child(3):hover, ol > li:nth-child(5):hover {
+                cursor: pointer;
+            }
+            ol > li:nth-child(4) {
+                background-color: orange;
+                color: black;
+            }
         </style>
     </head>
     <body>
         <h1>Сьогодення Білецького Святослава Андрійовича</h1>
-        <a href="index.html">Назад на головну</a>
+        <a href="index.html" id="link-main">Назад на головну</a>
         <h2>Мій типовий список покупок:</h2>
         <ul>
             <li>Молочні продукти

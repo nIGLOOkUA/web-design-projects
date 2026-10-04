@@ -15,7 +15,6 @@
             #contents {
                 text-align: center;
             }
-
             section a {
                 display: inline-block;
                 width: 200px;
@@ -25,38 +24,34 @@
                 text-decoration: none;
                 padding: 8px;
                 margin: 5px 0;
-                border: 2px dashed black;
+                border: 1px solid black;
             }
-
             section a:hover {
                 background-color: magenta;
                 color: white;
             }
-
             section a:active {
                 background-color: yellow;
                 color: black;
             }
-
             article {
                 font-size: 120%;
             }
-
-            article h2 {
+            article > h2 {
                 font-size: 120%;
             }
 
-            .art-1 p { background-color: #2c3e50; color: #ffffff; }
-            .art-2 p { background-color: #8e44ad; color: #ffffff; }
-            .art-3 p { background-color: #d35400; color: #ffffff; }
-            .art-4 p { background-color: #27ae60; color: #ffffff; }
-            .art-5 p { background-color: #2980b9; color: #ffffff; }
+            #art-1 p { background-color: #2C3E50; color: #FFFFFF; }
+            #art-2 p { background-color: #8E44AD; color: #FFFFFF; }
+            #art-3 p { background-color: #D35400; color: #FFFFFF; }
+            #art-4 p { background-color: #27AE60; color: #FFFFFF; }
+            #art-5 p { background-color: #2980B9; color: #FFFFFF; }
 
             .to-contents {
                 font-weight: bold;
             }
 
-            .to-top {
+            #to-top {
                 text-transform: uppercase;
             }
         </style>
@@ -73,36 +68,36 @@
             <a href="#university">Університет</a>
         </section>
         <br>
-        <article class="art-1">
+        <article id="art-1">
             <h2 id="basic-info">Базова інформація</h2>
             <p>Привіт, мене звати Святослав Білецький. Я з Івано-Франківської області і зараз навчаюся на спеціальності комп'ютерних наук...</p>
         </article>
         <a href="#contents" class="to-contents">до змісту</a>
         <hr>
-        <article class="art-2">
+        <article id="art-2">
             <h2 id="childhood">Дитинство</h2>
             <p>Моє дитинство пройшло у затишній і спокійній атмосфері, де невіддільною частиною щоденного розкладу були захопливі книги...</p>
         </article>
         <a href="#contents" class="to-contents">до змісту</a>
         <hr>
-        <article class="art-3">
+        <article id="art-3">
             <h2 id="school-years">Шкільні роки</h2>
             <p>Шкільні роки пройшли для мене досить легко і вдало: я завжди вчився на високі оцінки від 9 до 12 балів...</p>
         </article>
         <a href="#contents" class="to-contents">до змісту</a>
         <hr>
-        <article class="art-4">
+        <article id="art-4">
             <h2 id="out-of-school">Поза школою</h2>
             <p>Поза навчанням моє дозвілля наповнене тим, що приносить найбільше драйву, живих емоцій та душевного спокою...</p>
         </article>
         <a href="#contents" class="to-contents">до змісту</a>
         <hr>
-        <article class="art-5">
+        <article id="art-5">
             <h2 id="university">Університет</h2>
             <p>Вступ до університету відкрив зовсім новий життєвий ритм із дорослими викликами та більшою свободою для самовираження...</p>
         </article>
         <a href="#contents" class="to-contents">до змісту</a>
         <hr>
-        <a href="#top" class="to-top">Уверх</a>
+        <a href="#top" id="to-top">Уверх</a>
     </body>
 </html>
