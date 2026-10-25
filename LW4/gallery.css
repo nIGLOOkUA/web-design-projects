@@ -3,13 +3,27 @@ h1 {
     font-size: 20px;
 }
 
-#link-main {
-    font-style: italic;
+h2 {
+    text-align: center;
 }
 
-h2,
 h3 {
     text-align: center;
+    margin: 0;
+}
+
+#link-main {
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+#link-main:hover {
+    background-color: yellow;
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
 }
 
 #image-1 {
@@ -21,15 +35,10 @@ h3 {
 }
 
 #image-3 {
-    font-size: 1.3em;
+    font-size: 1.69em;
 }
 
-.gallery-item {
-    text-align: center;
-    grid-column: span 12;
-}
-
-.gallery-item img {
+img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -40,6 +49,16 @@ h3 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
+    align-items: start;
+}
+
+.gallery-item {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    grid-column: span 12;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

@@ -5,6 +5,15 @@
 
 #link-main {
     font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    margin: 15px;
+}
+#link-main:hover {
+    background-color: yellow;
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
 }
 
 #contents {
@@ -21,11 +30,9 @@ section a {
     margin: 5px auto;
     border: 1px solid black;
 }
-
 section a:hover {
     background-color: magenta;
 }
-
 section a:active {
     background-color: yellow;
     color: black;
@@ -36,7 +43,6 @@ section a:active {
     display: block;
     margin-top: 10px;
 }
-
 #to-top {
     text-transform: uppercase;
     display: block;
@@ -46,30 +52,26 @@ section a:active {
 .bio-block {
     border: 1px solid black;
     padding: 15px;
-    color: #FFFFFF;
+    color: white;
     grid-column: span 12;
 }
 
 .bio-block a {
-    color: #FFFFFF;
+    color: white;
 }
 
 #block-1 {
     background-color: #2C3E50;
 }
-
 #block-2 {
     background-color: #8E44AD;
 }
-
 #block-3 {
     background-color: #A04000;
 }
-
 #block-4 {
     background-color: #196F3D;
 }
-
 #block-5 {
     background-color: #1F618D;
 }
@@ -82,27 +84,18 @@ section a:active {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #block-1,
-    #block-2,
-    #block-3,
-    #block-4 {
+    #block-1, #block-2, #block-3, #block-4 {
         grid-column: span 6;
     }
-
     #block-5 {
         grid-column: span 12;
     }
 }
-
 @media (min-width: 992px) {
-    #block-1,
-    #block-2,
-    #block-3 {
+    #block-1, #block-2, #block-3 {
         grid-column: span 4;
     }
-
-    #block-4,
-    #block-5 {
+    #block-4, #block-5 {
         grid-column: span 6;
     }
 }

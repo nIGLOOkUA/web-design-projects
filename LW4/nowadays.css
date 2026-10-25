@@ -2,15 +2,21 @@ h1 {
     text-align: center;
     font-size: 22px;
 }
-
-#link-main {
-    font-style: italic;
-    display: block;
+h2 {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
+#link-main {
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    margin: 15px;
+}
+#link-main:hover {
+    background-color: yellow;
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
 }
 
 ul > li {
