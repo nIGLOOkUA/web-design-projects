@@ -2,35 +2,69 @@ h1 {
     text-align: center;
     font-size: 22px;
 }
+
 #link-main {
     font-style: italic;
 }
+
 h2 {
     text-align: center;
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 15px;
 }
-th, td {
+
+th,
+td {
     border: 1px solid black;
     padding: 8px 10px;
 }
+
 th {
     text-align: center;
     background-color: green;
     color: white;
     font-weight: bold;
+    font-size: 110%;
 }
+
+td {
+    font-size: 100%;
+}
+
 tr:nth-child(even) td {
     background-color: #666666;
     color: white;
 }
+
 tr:nth-child(odd) td {
     background-color: white;
     color: black;
 }
+
 tr > td:nth-child(5) {
     text-align: right;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    th {
+        font-size: 120%;
+    }
+
+    td {
+        font-size: 110%;
+    }
+}
+
+@media (min-width: 992px) {
+    th {
+        font-size: 130%;
+    }
+
+    td {
+        font-size: 120%;
+    }
 }

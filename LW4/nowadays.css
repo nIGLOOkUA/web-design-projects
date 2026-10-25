@@ -2,28 +2,60 @@ h1 {
     text-align: center;
     font-size: 22px;
 }
+
 #link-main {
     font-style: italic;
+    display: block;
+    text-align: center;
 }
+
 h2 {
     text-align: center;
 }
+
 ul > li {
     background-color: white;
     color: black;
 }
+
 ul ul > li:nth-child(odd) {
     background-color: #666666;
     color: white;
 }
+
 ul ul > li:nth-child(even) {
     background-color: white;
     color: black;
 }
-ol > li:nth-child(3):hover, ol > li:nth-child(5):hover {
+
+ol > li:nth-child(3):hover,
+ol > li:nth-child(5):hover {
     cursor: pointer;
 }
+
 ol > li:nth-child(4) {
     background-color: orange;
     color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.list-section {
+    grid-column: span 12;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .list-section {
+        grid-column: span 12;
+    }
+}
+
+@media (min-width: 992px) {
+    .list-section {
+        grid-column: span 6;
+    }
 }

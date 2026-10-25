@@ -5,6 +5,7 @@ h1 {
 p {
     font-size: 120%;
 }
+
 #link-bio:link {
     color: purple;
 }
@@ -28,4 +29,26 @@ p {
 }
 #link-gallery:visited {
     color: darkmagenta;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 15px;
+    text-align: center;
+}
+.grid-container a {
+    grid-column: span 12;
+    display: block;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .grid-container a {
+        grid-column: span 6;
+    }
+}
+@media (min-width: 992px) {
+    .grid-container a {
+        grid-column: span 3;
+    }
 }
