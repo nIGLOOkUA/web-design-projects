@@ -1,0 +1,61 @@
+#top {
+    text-align: center;
+    font-size: 22px;
+}
+#link-main {
+    font-style: italic;
+}
+#contents {
+    text-align: center;
+}
+section a {
+    display: block;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+section a:hover {
+    background-color: magenta;
+    color: white;
+}
+section a:active {
+    background-color: yellow;
+    color: black;
+}
+article {
+    font-size: 120%;
+}
+article > h2 {
+    font-size: 120%;
+}
+
+#art-1 p {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+}
+#art-2 p {
+    background-color: #8E44AD;
+    color: #FFFFFF;
+}
+#art-3 p {
+    background-color: #A04000;
+    color: #FFFFFF;
+}
+#art-4 p {
+    background-color: #196F3D;
+    color: #FFFFFF;
+}
+#art-5 p {
+    background-color: #1F618D;
+    color: #FFFFFF;
+}
+.to-contents {
+    font-weight: bold;
+}
+#to-top {
+    text-transform: uppercase;
+}

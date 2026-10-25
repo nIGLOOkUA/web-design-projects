@@ -1,0 +1,31 @@
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+p {
+    font-size: 120%;
+}
+#link-bio:link {
+    color: purple;
+}
+#link-bio:visited {
+    color: #228B22;
+}
+#link-nowadays:link {
+    color: green;
+}
+#link-nowadays:visited {
+    color: #A64B00;
+}
+#link-friends:link {
+    color: #CC0000;
+}
+#link-friends:visited {
+    color: #664D00;
+}
+#link-gallery:link {
+    color: darkblue;
+}
+#link-gallery:visited {
+    color: darkmagenta;
+}
