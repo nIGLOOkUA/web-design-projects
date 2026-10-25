@@ -8,7 +8,6 @@
     font-style: italic;
     color: blue;
     text-decoration: underline;
-    display: inline-block;
     margin: 15px;
 }
 #link-main:hover {

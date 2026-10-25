@@ -8,7 +8,6 @@
     font-style: italic;
     color: blue;
     text-decoration: underline;
-    display: inline-block;
     margin: 15px;
 }
 #link-main:hover {
@@ -34,21 +33,6 @@
     float: left;
     padding: 10px;
     width: 100%;
-}
-
-@media (min-width: 769px) {
-    .col-tablet-6 {
-        width: 50%;
-    }
-    .col-tablet-12 {
-        width: 100%;
-    }
-}
-
-@media (min-width: 993px) {
-    .col-desktop-4 {
-        width: 33.3333%;
-    }
 }
 
 .card {
@@ -88,4 +72,19 @@
 .badge-3 {
     background-color: #FBC7C7;
     color: black;
+}
+
+@media (min-width: 769px) {
+    .col-tablet-6 {
+        width: 50%;
+    }
+    .col-tablet-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) {
+    .col-desktop-4 {
+        width: 33.333%;
+    }
 }

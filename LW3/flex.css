@@ -8,7 +8,6 @@
     font-style: italic;
     color: blue;
     text-decoration: underline;
-    display: inline-block;
     margin: 15px;
 }
 #link-main:hover {
@@ -32,21 +31,6 @@
 .col {
     padding: 10px;
     width: 100%;
-}
-
-@media (min-width: 769px) {
-    .col-tablet-6 {
-        width: 50%;
-    }
-    .col-tablet-12 {
-        width: 100%;
-    }
-}
-
-@media (min-width: 993px) {
-    .col-desktop-4 {
-        width: 33.3333%;
-    }
 }
 
 .card {
@@ -93,4 +77,19 @@
 
 .card-content p:last-child {
     margin-bottom: 0;
+}
+
+@media (min-width: 769px) {
+    .col-tablet-6 {
+        width: 50%;
+    }
+    .col-tablet-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) {
+    .col-desktop-4 {
+        width: 33.33%;
+    }
 }
