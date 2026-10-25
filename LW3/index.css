@@ -33,5 +33,5 @@ div a {
 #method-float:hover, #method-flex:hover, #method-grid:hover {
     background-color: yellow;
     color: black;
-    font-size: 20px;
+    font-size: 1.3em;
 }
