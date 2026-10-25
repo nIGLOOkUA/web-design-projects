@@ -1,3 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 #link-main {
     font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    display: inline-block;
+    margin: 15px;
+}
+#link-main:hover {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-caption {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 30px 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+@media (min-width: 769px) {
+    .col-tablet-6 {
+        width: 50%;
+    }
+    .col-tablet-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) {
+    .col-desktop-4 {
+        width: 33.3333%;
+    }
+}
+
+.card {
+    background-color: #DDE8D4;
+    border: 2px solid black;
+    padding: 40px 15px 15px 15px;
+    position: relative;
+}
+
+.card p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.badge-1 {
+    background-color: #F39C12;
+    color: black;
+}
+.badge-2 {
+    background-color: #D8006F;
+    color: white;
+}
+.badge-3 {
+    background-color: #FBC7C7;
+    color: black;
 }
